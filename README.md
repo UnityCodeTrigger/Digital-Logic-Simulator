@@ -13,20 +13,22 @@ El orden de renderizado es:
 - Conexiones
 - Componentes fantasma (Efecto de arrastrar un componente para previsualizarlo al crearlo)
 
-## OR Gate Example:
+
+## Ejemplos y compilacion de Componentes
+Compile format:<br>
+{NAME}, {AUTHOR}, {NUMBER_INPUTS}, {NUMBER_OUTPUTS}, {HUE (color tone)}, {TRUTH_TABLE (only positive outputs for optimization)}<br>
+
+### OR Gate Example:
 ![image](https://github.com/user-attachments/assets/cb853281-26e7-4177-b0c5-9337a082face)
 ![image](https://github.com/user-attachments/assets/560d9e83-e35a-47db-ad06-62d16c1ce673)
 <br>
 
-## Compiled Gates:
-{NAME}, {AUTHOR}, {NUMBER_INPUTS}, {NUMBER_OUTPUTS}, {HUE (color tone)}, {TRUTH_TABLE (only positive outputs for optimization)}<br>
-
-### AND
+#### AND Gate
 .AND,base,2,1,0.5,111<br>
 1,1 = 1 **(111)**<br>
 *any other configuration is = 0*<br>
 
-### NAND
+#### NAND Gate
 NAND,AuthorName,2,1,0,001011101<br>
 0,0 = 1 **(001)**<br>
 0,1 = 1 **(011)**<br>
