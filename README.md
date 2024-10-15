@@ -11,5 +11,12 @@ En este proyecto hice un simulador de puertas logicas donde puedes crear tus pro
 {NAME}, {AUTHOR}, {NUMBER_INPUTS}, {NUMBER_OUTPUTS}, {HUE (color tone)}, {TRUTH_TABLE (only positive outputs for optimization)}
 ### AND
 .AND,base,2,1,0.5,111
+1,1 = 1 **(111)**
+*any other configuration is = 0*
+
 ### NAND
 NAND,AuthorName,2,1,0,001011101
+0,0 = 1 **(001)**
+0,1 = 1 **(011)**
+1,0 = 1 **(101)**
+*any other configuration is = 0*
